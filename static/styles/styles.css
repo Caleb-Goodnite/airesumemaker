@@ -1,0 +1,36 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: #091E05;
+    font-family: monospace;
+    color: #A5AE9E;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;  /* Ensures body fills the whole viewport height */
+}
+
+main {
+    flex-grow: 1; /* This will allow the content to expand and push the footer down */
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-size: .8rem;
+    color: white;
+    font-family: monospace;
+}
+
+footer{
+    border-radius: .5rem;
+    background-color: #7E846B;
+    padding: .2rem;
+}
